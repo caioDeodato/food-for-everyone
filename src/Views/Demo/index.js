@@ -5,7 +5,7 @@ import { Container } from '../../global/styles';
 export default function Demo() {
   return (
     <Container>
-      <Text style={{ color:'black' }}>Tela demo</Text>
+      <Text>Tela demo</Text>
     </Container>
   )
 }
