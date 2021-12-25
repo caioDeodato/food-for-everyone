@@ -4,7 +4,7 @@ Food for everyone is an React Native application that replicates an food deliver
 ## Required tools to run the project
 - NodeJS
 - Yarn
--React Native CLI (you will be able to run the commands using `npx react-native [command]`) or installing the CLI globally `npm install -g react-native-cli`
+- React Native CLI (you will be able to run the commands using `npx react-native [command]`) or installing the CLI globally `npm install -g react-native-cli`
 
 ## Running the app
 1. After cloning the project, install all project dependencies running yarn in root directory:
