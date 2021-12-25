@@ -17,6 +17,7 @@
 		5766CDEEA9BA4DAF83041D44 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F22453A21B0845199A8A3AEA /* SF-Pro-Rounded-Regular.otf */; };
 		096C501562A149A595BC0A18 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1C5387AFFA040AEA690A369 /* SF-Pro-Text-Bold.otf */; };
 		1C2C4F450DB247A2AFBB8427 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18D6762C90074FB8BFD96D24 /* SF-Pro-Text-Regular.otf */; };
+		793407327EF94DB292FB50C0 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE5598A62C4538A37F1586 /* SF-Pro-Text-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F22453A21B0845199A8A3AEA /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Rounded-Regular.otf"; path = "../src/assets/fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B1C5387AFFA040AEA690A369 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Bold.otf"; path = "../src/assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		18D6762C90074FB8BFD96D24 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Regular.otf"; path = "../src/assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DAE5598A62C4538A37F1586 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Medium.otf"; path = "../src/assets/fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				F22453A21B0845199A8A3AEA /* SF-Pro-Rounded-Regular.otf */,
 				B1C5387AFFA040AEA690A369 /* SF-Pro-Text-Bold.otf */,
 				18D6762C90074FB8BFD96D24 /* SF-Pro-Text-Regular.otf */,
+				8DAE5598A62C4538A37F1586 /* SF-Pro-Text-Medium.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				5766CDEEA9BA4DAF83041D44 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				096C501562A149A595BC0A18 /* SF-Pro-Text-Bold.otf in Resources */,
 				1C2C4F450DB247A2AFBB8427 /* SF-Pro-Text-Regular.otf in Resources */,
+				793407327EF94DB292FB50C0 /* SF-Pro-Text-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
