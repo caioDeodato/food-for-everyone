@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Alert } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {
   Container,
@@ -17,7 +17,7 @@ import personSmaller from '../../assets/img/Demo/person-smaller.png';
 import logoLogin from '../../assets/img/Demo/logo-login.png';
 import Button from '../../components/Button';
 
-export default function Demo() {
+export default function Demo({ navigation }) {
   return (
     <Container>
       <Header>
@@ -38,9 +38,26 @@ export default function Demo() {
           <Person source={personBigger} />
           <PersonSmall source={personSmaller} />
         </View>
-        <LinearGradient colors={['transparent', '#FF470B']} style={{ width: '100%', height: 150, position: 'absolute', bottom: 0, zIndex: 100, marginBottom: 20}} />
+        <LinearGradient
+          colors={['transparent', '#FF470B']}
+          style={{
+            width: '100%',
+            height: 180,
+            position: 'absolute',
+            bottom: 0,
+            zIndex: 100,
+            marginBottom: 20,
+          }}
+        />
       </ImageSection>
-      <Button schema="white" text="Get Starteed" style={{ marginTop: -30, zIndex: 160 }} />
+      <Button
+        schema="white"
+        style={{ marginTop: -30, zIndex: 160 }}
+        onPress={() => {
+          navigation.navigate('Login');
+        }}>
+        Get Starteed
+      </Button>
     </Container>
   );
 }
